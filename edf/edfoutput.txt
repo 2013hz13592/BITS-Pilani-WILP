@@ -1,0 +1,41 @@
+C:\Users\pras\workspace\edf\Debug>edf
+Enter Number of Tasks: 3
+Enter Release Time of Task 0: 0
+Enter Period of Task 0: 4
+Enter Execution Time of Task 0: 1
+Enter Deadline of Task 0: 4
+Enter Release Time of Task 1: 5
+Enter Period of Task 1: 5
+Enter Execution Time of Task 1: 2
+Enter Deadline of Task 1: 5
+Enter Release Time of Task 2: 0
+Enter Period of Task 2: 20
+Enter Execution Time of Task 2: 7
+Enter Deadline of Task 2: 20
+Density: 1.000000
+Utilization: 1.000000
+Hyperperiod: 20
+Time: 0, Running Job: 0
+Time: 1, Running Job: 2 Previous Job: 0
+Time: 2, Running Job: 2
+Time: 3, Running Job: 2
+Time: 4, Running Job: 0 Previous Job: 2
+Time: 5, Running Job: 1 Previous Job: 0
+Time: 6, Running Job: 1
+Time: 7, Running Job: 2 Previous Job: 1
+Time: 8, Running Job: 0 Previous Job: 2
+Time: 9, Running Job: 2 Previous Job: 0
+Time: 10, Running Job: 1 Previous Job: 2
+Time: 11, Running Job: 1
+Time: 12, Running Job: 0 Previous Job: 1
+Time: 13, Running Job: 2 Previous Job: 0
+Time: 14, Running Job: 2
+Time: 15, Running Job: 1 Previous Job: 2
+Time: 16, Running Job: 1
+Time: 17, Running Job: 0 Previous Job: 1
+Time: 18, Running Job: -1 Previous Job: 0
+Time: 19, Running Job: -1
+Time: 20, Running Job: 0 Previous Job: -1
+JobId: 0, Prempts: 0, Min Response: 1, Max Response: 2
+JobId: 1, Prempts: 0, Min Response: 2, Max Response: 2
+JobId: 2, Prempts: 3, Min Response: 15, Max Response: 15
