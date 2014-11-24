@@ -148,7 +148,7 @@ int calculateHyperPeriod(numberOfTasks)
  /*Calculate LCM of Periods*/
  num1=taskInfo[0][1];
  num2=taskInfo[1][1];
- count = count + 1;
+ count=count+1;
  while (count < numberOfTasks)
  {
   max=(num1>num2)?num1:num2;
@@ -168,6 +168,7 @@ int calculateHyperPeriod(numberOfTasks)
   if(count==numberOfTasks)
     break;
   max=max+1;
+  count=0;
  }
  /*HyperPeriod is the LCM of Periods*/
  hyperperiod=max;
