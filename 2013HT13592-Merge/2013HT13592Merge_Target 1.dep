@@ -1,0 +1,2 @@
+Dependencies for Project '2013HT13592Merge', Target 'Target 1': (DO NOT MODIFY !)
+F (.\2013HT13592Merge.s)(0x54D100E4)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips--list .\2013ht13592merge.lst --xref -o .\2013ht13592merge.o --depend .\2013ht13592merge.d)

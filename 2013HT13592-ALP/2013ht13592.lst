@@ -26,18 +26,18 @@ ARM Macro Assembler    Page 1
    19 0000001C 0A000001        BEQ              SUB2
    20 00000020         ; ELSE STORE THE CONTENTS OF REGISTER IN THE OUTPUT AREA
                         
-   21 00000020 E5E50001        STRB             R0,[R5,#1]!
+   21 00000020 E4C50001        STRB             R0,[R5],#1
    22 00000024 EAFFFFFA        B                SUB1
    23 00000028         ; LOOP TO FETCH SECOND STRING
    24 00000028         SUB2
    25 00000028         ; MOVE ONE BYTE FROM MEMORY TO REGISTER
    26 00000028 E4D40001        LDRB             R0,[R4],#1
    27 0000002C E3500000        CMP              R0,#0
-   28 00000030         ; BRANCH TO NEXT STRING WHEN 0x00 IS FOUND 
+   28 00000030         ; EXIT WHEN 0x00 IS FOUND 
    29 00000030 0A000001        BEQ              AFT
    30 00000034         ; ELSE STORE THE CONTENTS OF REGISTER IN THE OUTPUT AREA
                         
-   31 00000034 E5E50001        STRB             r0,[r5,#1]!
+   31 00000034 E4C50001        STRB             r0,[r5],#1
    32 00000038 EAFFFFFA        B                SUB2
    33 0000003C E1A0F00E 
                        AFT     MOV              PC,LR
