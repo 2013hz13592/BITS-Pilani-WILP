@@ -15,7 +15,7 @@ Image Symbol Table
 
     Symbol Name                              Value     Ov Type        Size  Object(Section)
 
-    RESET                                    0x00000000   Section       80  2013ht13592.o(RESET)
+    RESET                                    0x00000000   Section       88  2013ht13592.o(RESET)
     2013HT13592.s                            0x00000000   Number         0  2013ht13592.o ABSOLUTE
     RES                                      0x40000000   Section        0  2013ht13592.o(RES)
     OUTPUT                                   0x40000000   Data           0  2013ht13592.o(RES)
@@ -34,13 +34,13 @@ Memory Map of the image
 
   Image Entry point : 0x00000000
 
-  Load Region LR_1 (Base: 0x00000000, Size: 0x00000050, Max: 0xffffffff, ABSOLUTE)
+  Load Region LR_1 (Base: 0x00000000, Size: 0x00000058, Max: 0xffffffff, ABSOLUTE)
 
-    Execution Region ER_RO (Base: 0x00000000, Size: 0x00000050, Max: 0xffffffff, ABSOLUTE)
+    Execution Region ER_RO (Base: 0x00000000, Size: 0x00000058, Max: 0xffffffff, ABSOLUTE)
 
     Base Addr    Size         Type   Attr      Idx    E Section Name        Object
 
-    0x00000000   0x00000050   Code   RO            1  * RESET               2013ht13592.o
+    0x00000000   0x00000058   Code   RO            1  * RESET               2013ht13592.o
 
 
     Execution Region ER_RW (Base: 0x40000000, Size: 0x00000000, Max: 0xffffffff, ABSOLUTE)
@@ -62,10 +62,10 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
 
-        80         16          0          0          0        228   2013ht13592.o
+        88         16          0          0          0        232   2013ht13592.o
 
     ----------------------------------------------------------------------
-        80         16          0          0          0        228   Object Totals
+        88         16          0          0          0        232   Object Totals
          0          0          0          0          0          0   (incl. Generated)
          0          0          0          0          0          0   (incl. Padding)
 
@@ -80,15 +80,15 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-        80         16          0          0          0        228   Grand Totals
-        80         16          0          0          0        228   ELF Image Totals
-        80         16          0          0          0          0   ROM Totals
+        88         16          0          0          0        232   Grand Totals
+        88         16          0          0          0        232   ELF Image Totals
+        88         16          0          0          0          0   ROM Totals
 
 ==============================================================================
 
-    Total RO  Size (Code + RO Data)                   80 (   0.08kB)
+    Total RO  Size (Code + RO Data)                   88 (   0.09kB)
     Total RW  Size (RW Data + ZI Data)                 0 (   0.00kB)
-    Total ROM Size (Code + RO Data + RW Data)         80 (   0.08kB)
+    Total ROM Size (Code + RO Data + RW Data)         88 (   0.09kB)
 
 ==============================================================================
 

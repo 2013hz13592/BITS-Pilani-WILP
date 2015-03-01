@@ -1,2 +1,2 @@
 Dependencies for Project '2013HT13592', Target 'Target 1': (DO NOT MODIFY !)
-F (.\2013HT13592.s)(0x54CFB75E)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips--list .\2013ht13592.lst --xref -o .\2013ht13592.o --depend .\2013ht13592.d)
+F (.\2013HT13592.s)(0x54D3987E)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips--list .\2013ht13592.lst --xref -o .\2013ht13592.o --depend .\2013ht13592.d)
