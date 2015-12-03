@@ -1,3 +1,7 @@
+//Lamport Logical Clock
+//2013HT13592
+//Prasenjit Das
+
 import java.util.Random;
 
 class LamportThread implements Runnable 

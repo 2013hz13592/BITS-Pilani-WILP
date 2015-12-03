@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<archive id="defaultServer0">
+  <dir sourceOnDisk="C:\Users\pras\GitHub\BITS\2013HZ13592\Workspace\Prospect\WebContent" targetInArchive="/"/>
+  <dir sourceOnDisk="C:\Users\pras\GitHub\BITS\2013HZ13592\Workspace\Prospect\WebContent\WEB-INF\classes" targetInArchive="/WEB-INF/classes"/>
+  <dir sourceOnDisk="C:\Users\pras\GitHub\BITS\2013HZ13592\Workspace\Prospect\WebContent\WEB-INF\classes" targetInArchive="/WEB-INF/classes"/>
+</archive>
