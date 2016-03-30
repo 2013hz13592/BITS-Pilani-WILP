@@ -1,0 +1,6 @@
+[
+	{"brand": "RBS", "sortCodeStart": 001000, "sortCodeEnd": 002000},
+	{"brand": "NWB", "sortCodeStart": 000000, "sortCodeEnd": 999999},
+	{"brand": "UBR", "sortCodeStart": 000000, "sortCodeEnd": 999999},
+	{"brand": "UBN", "sortCodeStart": 000000, "sortCodeEnd": 999999}
+]

@@ -1,3 +1,11 @@
-<div ng-show=(imgSrc=='A') ng-controller="namesCtrl">
+<html ng-app="myApp">
+<head>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
+<script type="text/javascript" src="namesController.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+</head>
+<div ng-controller="namesCtrl">
 Show and Hide
+<label  ng-click=ForwardPathCtrl('Prev')><input type="hidden">Prev</label>
 </div>
+</html>
