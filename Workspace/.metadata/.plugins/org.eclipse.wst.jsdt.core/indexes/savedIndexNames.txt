@@ -1,0 +1,7 @@
+INDEX VERSION 1.3+C:\Users\pras\GitHub\BITS\2013HZ13592\Workspace\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1826829082.index
+670406542.index
+1290131803.index
+3198495718.index
+3527430025.index
+3593422709.index

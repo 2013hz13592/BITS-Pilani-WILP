@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server auto-publish-setting="2" auto-publish-time="1" hostname="localhost" id="WebSphere Application Server Liberty at localhost" looseConfig="true" name="WebSphere Application Server Liberty at localhost" runtime-id="WebSphere Application Server Liberty" server-type="com.ibm.ws.st.server.wlp" server-type-id="com.ibm.ws.st.server.wlp" serverName="defaultServer" start-timeout="60" stop-timeout="15" timestamp="2">
+    <list key="modules" value0="Prospect::org.eclipse.jst.jee.server:Prospect::jst.web::3.0"/>
+  </server>
+</servers>

@@ -1,0 +1,5 @@
+gcc -lnsl -pthread NODE.c  bully_xdr.c bully_clnt.c
+
+
+#then you can start each ./a.out file with command line arguments giving their hostids and you can edit Node.c file in Line 19 and can mention localhost
+
